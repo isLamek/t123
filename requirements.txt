@@ -1,0 +1,12 @@
+# Omugongo — Namibian opportunity intelligence agent
+# Core (required) — all pure-Python or have wheels, no compiler needed
+streamlit>=1.40
+requests>=2.32
+beautifulsoup4>=4.12
+feedparser>=6.0
+pypdf>=5.1
+python-dotenv>=1.0
+
+# Optional — only needed for scraping JavaScript-heavy career pages.
+# Install separately when you want it:  pip install playwright  &&  playwright install chromium
+# playwright>=1.48

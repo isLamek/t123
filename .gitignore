@@ -1,0 +1,25 @@
+# Secrets — never commit these
+.env
+
+# Runtime data (CV, database, logs)
+data/
+*.db
+*.sqlite
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.streamlit/secrets.toml
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Claude Code machine-local settings
+.claude/settings.local.json
